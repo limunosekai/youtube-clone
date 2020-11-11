@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Youtube-Clone</title>
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://kit.fontawesome.com/bb7724eed7.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!--Header-->
   <header>
     <div class="logo">
       <i class="fab fa-youtube"></i>
@@ -17,10 +19,40 @@
       <i class="fas fa-toggle"></i>
     </div>
   </header>
+  <!--Video-->
   <section class="player">
-    <video src=""></video>
+    <video controls src="video/video.MP4"></video>
   </section>
-  <section class="info"></section>
+  <!--Video Information-->
+  <section class="info">
+    <!--Metadata-->
+    <div class="metadata">
+      <ul class="hashtags">
+        <li>#도쿄먹방</li>
+        <li>#도쿄여행</li>
+        <li>#일본여행</li>
+      </ul>
+      <div class="titleAndButton">
+        <span class="title">
+          KYOPLE 일본 도쿄여행 먹방기 | 루크스 랍스터 샌드위치 먹방 | 쿄플TV in 오모테산도 
+        </span>
+        <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+      </div>
+      <div class="views">
+        <span class="views">조회수 503,632회·2020.3.14</span>
+      </div>
+    </div>
+    <!--Action Button-->
+    <ul class="actions">
+      <li><button><i class="fas fa-thumbs-up">15K</i></button></li>
+      <li><button><i class="fas fa-thumbs-down">0</i></button></li>
+      <li><button><i class="fas fa-share">공유</i></button></li>
+      <li><button><i class="fas fa-plus">저장</i></button></li>
+      <li><button><i class="fab fa-font-awesome-flag">더보기</i></button></li>
+    </ul>
+    <div class="channel"></div>
+  </section>
+  <!---->
   <section class="upNext"></section>
 </body>
 </html>
