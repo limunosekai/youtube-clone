@@ -95,9 +95,7 @@ body > .infoAndUpnext > .info {
 }
 
 .info .metadata .titleAndButton .title {
-  /* font-size: var(--font-medium); */
   margin-right: var(--padding);
-  padding-bottom: var(--padding);
 }
 
 .info .metadata .titleAndButton .title.clamp {
